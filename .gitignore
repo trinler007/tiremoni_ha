@@ -1,0 +1,14 @@
+# Local reference sources and protocol research material
+reference/
+
+# Python cache and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

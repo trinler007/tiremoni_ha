@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "TireMoni HA",
+        "description": "Waehle das TireMoni-, TireDog- oder TyreDog-BLE-Gateway aus. Wenn kein Gateway angezeigt wird, gib die Bluetooth-Adresse manuell ein.",
+        "data": {
+          "address": "Bluetooth-Adresse"
+        }
+      },
+      "bluetooth_confirm": {
+        "title": "TireMoni HA",
+        "description": "{name} einrichten?"
+      }
+    },
+    "abort": {
+      "already_configured": "Dieses Gateway ist bereits eingerichtet.",
+      "not_supported": "Dieses Bluetooth-Geraet sieht nicht wie ein TireMoni-, TireDog- oder TyreDog-Gateway aus."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "TireMoni HA Optionen",
+        "description": "Lege fest, ab wann Messwerte als veraltet gelten.",
+        "data": {
+          "max_data_age_minutes": "Maximales Messwertalter in Minuten"
+        }
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "data_current": {
+        "name": "Daten aktuell"
+      }
+    },
+    "sensor": {
+      "gateway_rssi": {
+        "name": "Gateway-RSSI"
+      },
+      "status": {
+        "name": "Status"
+      }
+    }
+  }
+}

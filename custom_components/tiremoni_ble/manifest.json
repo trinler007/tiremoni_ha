@@ -1,0 +1,34 @@
+{
+  "domain": "tiremoni_ble",
+  "name": "TireMoni HA",
+  "bluetooth": [
+    {
+      "connectable": true,
+      "local_name": "TYREDOG"
+    },
+    {
+      "connectable": true,
+      "local_name": "TireMoni*"
+    },
+    {
+      "connectable": true,
+      "local_name": "Tiredog*"
+    },
+    {
+      "connectable": true,
+      "local_name": "TireDog*"
+    },
+    {
+      "connectable": true,
+      "local_name": "TyreDog*"
+    }
+  ],
+  "codeowners": ["@trinler007"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/trinler007/tiremoni_ha",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/trinler007/tiremoni_ha/issues",
+  "version": "0.4.0"
+}
