@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Markus Trinler
 # SPDX-License-Identifier: GPL-3.0-or-later
-# Python port of the OpenMQTTGateway TireMoni decoder and frame assembler.
-# See NOTICE.md for provenance and upstream attribution.
+# Python port of Markus Trinler's own TireMoni decoder and frame assembler,
+# developed for OpenMQTTGateway 1.8.1, not upstream. See NOTICE.md for provenance.
 
 """Parser helpers for TireMoni / TireDog / TyreDog Bluetooth data.
 
@@ -225,7 +225,8 @@ def decode_tiremoni_frame(
 ) -> TyreReading | None:
     """Decode one 16-character TireMoni ASCII frame.
 
-    The mapping is ported from the OpenMQTTGateway TireMoni adaptation:
+    The mapping is ported from Markus Trinler's own TireMoni extension for
+    OpenMQTTGateway 1.8.1; it is not an original upstream decoder:
 
     - Frame format: ``$A0...........#`` with exactly 16 characters
     - Sensor number: hex nibble at offset 6, plus one

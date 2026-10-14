@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Markus Trinler
 # SPDX-License-Identifier: GPL-3.0-or-later
-# BLE command sequence adapted from the OpenMQTTGateway TireMoni adaptation.
-# See NOTICE.md for provenance and upstream attribution.
+# BLE command sequence from Markus Trinler's own TireMoni extension for
+# OpenMQTTGateway 1.8.1, not from upstream. See NOTICE.md for provenance.
 
 """Active Bluetooth client for TireMoni BLE gateways."""
 

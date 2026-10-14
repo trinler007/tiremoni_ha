@@ -1,12 +1,12 @@
 # SPDX-FileCopyrightText: 2026 Markus Trinler
 # SPDX-License-Identifier: GPL-3.0-or-later
-# Protocol constants ported from the OpenMQTTGateway TireMoni adaptation.
-# See NOTICE.md for provenance and upstream attribution.
+# Protocol constants from Markus Trinler's own TireMoni extension for
+# OpenMQTTGateway 1.8.1, not from upstream. See NOTICE.md for provenance.
 
 """Constants for the TireMoni BLE integration."""
 
 DOMAIN = "tiremoni_ble"
-INTEGRATION_VERSION = "0.5.0"
+INTEGRATION_VERSION = "0.6.0"
 
 BRAND_NAME = "TireMoni"
 MANUFACTURER = "TireMoni / TireDog / TyreDog"

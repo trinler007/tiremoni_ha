@@ -1,5 +1,5 @@
 {
-  "authors": ["Markus Trinler"],
   "name": "TireMoni HA",
+  "content_in_root": false,
   "render_readme": true
 }

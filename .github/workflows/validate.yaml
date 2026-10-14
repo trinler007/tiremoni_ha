@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2026 Markus Trinler
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+name: Validate HACS
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  hacs:
+    name: HACS integration validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate repository
+        uses: hacs/action@main
+        with:
+          category: integration
+          comment: "false"
