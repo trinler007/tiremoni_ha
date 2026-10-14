@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Markus Trinler
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Diagnostics support for TireMoni BLE."""
 
 from __future__ import annotations

@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2026 Markus Trinler
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Python port of the OpenMQTTGateway TireMoni decoder and frame assembler.
+# See NOTICE.md for provenance and upstream attribution.
+
 """Parser helpers for TireMoni / TireDog / TyreDog Bluetooth data.
 
 This module intentionally has no Home Assistant imports. Keep the NUS frame

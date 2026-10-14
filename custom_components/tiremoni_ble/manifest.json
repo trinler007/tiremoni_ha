@@ -30,5 +30,5 @@
   "integration_type": "device",
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/trinler007/tiremoni_ha/issues",
-  "version": "0.4.0"
+  "version": "0.5.0"
 }

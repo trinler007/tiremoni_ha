@@ -1,7 +1,12 @@
+<!--
+SPDX-FileCopyrightText: 2026 Markus Trinler
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 # TireMoni HA
 
 Author: Markus Trinler
-Version: 0.4.0
+Version: 0.5.0
 
 Custom Home Assistant integration for TireMoni / TireDog / TyreDog
 RF-to-Bluetooth tyre monitoring gateways.
@@ -90,3 +95,26 @@ logger:
 python -m unittest discover -s tests
 Get-ChildItem -Path custom_components\tiremoni_ble -Filter *.py | ForEach-Object { python -m py_compile $_.FullName }
 ```
+
+## Copyright and license
+
+Copyright (c) 2026 Markus Trinler for the project contributions.
+
+TireMoni HA is free software, released under the GNU General Public License,
+version 3 or, at your option, any later version (`GPL-3.0-or-later`). You may
+use, modify and redistribute it under that license. Redistributed modified
+versions must preserve the applicable notices and provide source code under
+the GPL. The software comes WITHOUT ANY WARRANTY, including implied warranties
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See [LICENSE](LICENSE)
+for the full terms.
+
+The decoder was ported from the TireMoni adaptation of OpenMQTTGateway 1.8.1
+provided by Markus Trinler. See the [copyright and third-party notices](
+custom_components/tiremoni_ble/NOTICE.md) for the upstream attribution,
+modification history, dependency licenses and trademark information. The
+integration directory also includes a full license copy so these notices
+remain available after installation.
+
+This is an independent community integration. Product names identify
+compatibility and do not imply endorsement by the manufacturers or by
+Home Assistant.

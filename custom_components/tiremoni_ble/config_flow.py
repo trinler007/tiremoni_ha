@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Markus Trinler
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Config flow for TireMoni BLE."""
 
 from __future__ import annotations
